@@ -1,4 +1,4 @@
-# 🦓 ZebraCrossingDetection
+# ZebraCrossingDetection
 
 A deep learning-based computer vision project to detect zebra crossings in images using a custom-trained object detection model. The model is trained using Resnet50 and fine-tuned on a curated dataset to enhance real-world performance in urban and smart city environments.
 

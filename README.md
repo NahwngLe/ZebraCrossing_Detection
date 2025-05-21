@@ -23,6 +23,16 @@ This project aims to:
 
 ---
 
+
+## 📁 Dataset
+The dataset is a custom-labeled dataset of zebra crossings. It includes:
+
+- Zebra Crossing in many diverse conditions (sunny, night, crowded, empty)
+
+- Labeled in PASCAL VOC format
+
+
+
 ## 🗂️ Repository Structure
 
 ```bash
@@ -32,6 +42,26 @@ ZebraCrossingDetection/
 ├── README.md                       # Project documentation
 └── .gitignore                      # Git ignored files
 ```
+
+## 📊 Evaluation Metrics
+- IOU (Intersection over Union), Accuracy, Precision, Recall
+
+- After train model in 100 epoch, we have some metric:
+  - ![IOU](images/IoU(BBox).png)
+  - ![BBox Loss](images/BBoxLoss.png)
+  - ![Classification Accuracy](images/ClassAccuracy.png)
+  - ![Class Loss](images/ClassLoss.png)
+  - ![Total Loss](images/TotalLoss.png)
+
+## 📸 Output
+**We have classification output and IoU:**
+![Output metric](images/testMetric.png)
+
+## Demo with some images
+![demo1](images/demo1.png)
+![demo2](images/demo2.png)
+![demo4](images/demo4.png)
+![demo5](images/demo5.png)
 
 ## How to Run
 1. Clone the repository
@@ -53,27 +83,6 @@ Open the Jupyter Notebook:
 jupyter notebook Final_final_datav2_100epoch_0.5iou.ipynb
 ```
 
-## 📊 Evaluation Metrics
-- IOU (Intersection over Union), Accuracy, Precision, Recall
-
-- After train model in 100 epoch, we have some metric:
-  - ![IOU](images/IOU(BBox).png)
-  - ![BBox Loss](images/BBoxLoss.png)
-  - ![Classification Accuracy](images/ClassAccuracy.png)
-  - ![Class Loss](images/ClassLoss.png)
-  - ![Total Loss](images/TotalLoss.png)
-
-## 📸 Example Output
-
-
-## 📁 Dataset
-The dataset is a custom-labeled dataset of zebra crossings. It includes:
-
-- Zebra Crossing in many diverse conditions (sunny, night, crowded, empty)
-
-- Labeled in PASCAL VOC format
-
-
 ## 📌 Future Improvements
 - Convert model to ONNX or TensorRT for real-time deployment
 
@@ -82,12 +91,11 @@ The dataset is a custom-labeled dataset of zebra crossings. It includes:
 - Enhance dataset with more diverse scenarios
 
 👨‍💻 Author
-Le Quy Nhan – NahwngLe
+Le Quy Nhan – ![NahwngLe](https://github.com/NahwngLe)
 
 Feel free to open issues or pull requests for improvements or bugs.
 
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ---

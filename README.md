@@ -1,4 +1,4 @@
-# 🦓 ZebraCrossingDetection
+# ZebraCrossingDetection
 
 A deep learning-based computer vision project to detect zebra crossings in images using a custom-trained object detection model. The model is trained using Resnet50 and fine-tuned on a curated dataset to enhance real-world performance in urban and smart city environments.
 
@@ -31,12 +31,12 @@ ZebraCrossingDetection/
 ├── Final_final_datav2_100epoch_0.5iou.ipynb  # Main training notebook
 ├── README.md                       # Project documentation
 └── .gitignore                      # Git ignored files
+```
 
 ## How to Run
 1. Clone the repository
 ```bash
-    git clone https://github.com/yourusername/ZebraCrossingDetection.git
-    cd ZebraCrossingDetection
+git clone https://github.com/yourusername/ZebraCrossingDetection.git
 ```
 
 2. Install dependencies

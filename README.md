@@ -31,6 +31,7 @@ ZebraCrossingDetection/
 ├── Final_final_datav2_100epoch_0.5iou.ipynb  # Main training notebook
 ├── README.md                       # Project documentation
 └── .gitignore                      # Git ignored files
+```
 
 ## How to Run
 1. Clone the repository

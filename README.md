@@ -54,11 +54,14 @@ jupyter notebook Final_final_datav2_100epoch_0.5iou.ipynb
 ```
 
 ## 📊 Evaluation Metrics
-- Precision, Recall, mAP@0.5
+- IOU (Intersection over Union), Accuracy, Precision, Recall
 
-- Visual output of predictions
-
-- Example inference images
+- After train model in 100 epoch, we have some metric:
+  - ![IOU](images/IOU(BBox).png)
+  - ![BBox Loss](images/BBoxLoss.png)
+  - ![Classification Accuracy](images/ClassAccuracy.png)
+  - ![Class Loss](images/ClassLoss.png)
+  - ![Total Loss](images/TotalLoss.png)
 
 ## 📸 Example Output
 
@@ -66,9 +69,9 @@ jupyter notebook Final_final_datav2_100epoch_0.5iou.ipynb
 ## 📁 Dataset
 The dataset is a custom-labeled dataset of zebra crossings. It includes:
 
-Diverse conditions (sunny, night, crowded, empty)
+- Zebra Crossing in many diverse conditions (sunny, night, crowded, empty)
 
-Labeled in YOLO format
+- Labeled in PASCAL VOC format
 
 
 ## 📌 Future Improvements

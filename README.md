@@ -91,7 +91,7 @@ jupyter notebook Final_final_datav2_100epoch_0.5iou.ipynb
 - Enhance dataset with more diverse scenarios
 
 👨‍💻 Author
-Le Quy Nhan – ![NahwngLe](https://github.com/NahwngLe)
+Le Quy Nhan – [NahwngLe](https://github.com/NahwngLe)
 
 Feel free to open issues or pull requests for improvements or bugs.
 

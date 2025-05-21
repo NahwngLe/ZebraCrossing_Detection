@@ -36,8 +36,7 @@ ZebraCrossingDetection/
 ## How to Run
 1. Clone the repository
 ```bash
-    git clone https://github.com/yourusername/ZebraCrossingDetection.git
-    cd ZebraCrossingDetection
+git clone https://github.com/yourusername/ZebraCrossingDetection.git
 ```
 
 2. Install dependencies
